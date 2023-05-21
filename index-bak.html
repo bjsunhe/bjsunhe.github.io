@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>scripted HTTP by bjsunhe</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/bjsunhe">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>scripted HTTP</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
+      </div>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>scripted Http
+脚本化HTTP</p>
+
+<p>The Hypertext Transfer Protocol (HTTP) specifies how web browsers get documents from and post form contents to web servers, and how web servers respond to those requests and posts. 
+超文本传输协议浏览器如何从服务器获取文档和如何向服务器提交表单，服务器如何响应这些请求和提交。</p>
+
+<p>Web browsers obviously handle a lot of HTTP. Usually HTTP is not under the control of scripts and instead occurs when the user clicks on a link, submits a form, or types a URL.
+浏览器处理大量HTTP。HTTP并不在脚本的控制下，当用户点击链接、提交表单、输入URL时发生。</p>
+
+<p>It is possible for JavaScript code to script HTTP, however. 
+可以用JS代码脚本化HTTP。</p>
+
+<p>HTTP requests are initiated when a script sets the location property of a window object or calls the submit() method of a form object. 
+当脚本设置WINDOW对象的LOCATION属性时，或者调用FORM对象的SUBMIT()方法时，HTTP请求被初始化。</p>
+
+<p>In both cases, the browser loads a new page. This kind of trivial HTTP scripting can be useful in a multiframed web page but is not the topic we’ll cover here.
+在这两种情况下，浏览器加载新页面。在多框架网页中，这种平常的HTTP脚本化很有用，但并非我们讨论的主题。</p>
+
+<p>Instead, this chapter explains how scripts can communicate with a web server without causing the web browser to reload the content of any window or frame.
+本章解释了：脚本如何与服务器通信，在不造成浏览器重新加载窗口和框架内容的情况下。</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/bjsunhe">bjsunhe</a> can be found on <a href="https://github.com/bjsunhe">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
